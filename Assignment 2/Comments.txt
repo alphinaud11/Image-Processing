@@ -1,0 +1,15 @@
+- We can rewrite the equation like this (Out = I + a*T - b*B), the T part gives us the bright features in the 
+image that are smaller than the structuring element, while the B part gives us the dark features in the 
+image that are smaller than the structuring element, so when we add the T to the image we make the bright regions
+brighter, and when we subtract the B from the image we make the dark regions darker. This is why the equation
+increases the contrast.
+
+- When we increase the size of the structuring element, the bright regions as well as the dark regions become 
+more noticeable.
+
+- Increasing the a makes the bright regions more clearer, while decreasing it makes the bright regions less 
+clearer. On the other hand, increasing the b makes the dark regions more clearer, while decreasing it makes the 
+dark regions less clearer.
+
+- An expression to decrease the contrast would be (Out = I - a*T + b*B), we subtract the bright features from 
+the image, and add the dark features.

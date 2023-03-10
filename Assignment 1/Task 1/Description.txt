@@ -1,0 +1,8 @@
+Pre-processing:
+- The image is converted to grayscale, then an edge detection algorithm called (Canny) is applied on the 
+  grayscale image.
+
+Reasons:
+- We detect the edges in order to determine the coordinates of the left and right sides of the big and 
+  small ships, as well as the nearest coordinates of the left and right banks with respect to the big 
+  and small ships.

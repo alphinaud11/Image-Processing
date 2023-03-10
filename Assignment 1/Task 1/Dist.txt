@@ -1,0 +1,14 @@
+Distance between two ships (Euclidean):  184.4142135623731
+Distance between two ships (City):  185.0
+Distance between two ships (Chess):  184.0
+
+Distance between big ship and left bank (Euclidean):  41.0
+Distance between big ship and right bank (Euclidean):  77.0
+
+Distance between small ship and left bank (Euclidean):  42.0
+Distance between small ship and right bank (Euclidean):  109.0
+
+
+- The distances between the ships and the left/right banks are reported only in Euclidean measure as the 
+  distances will not differ when we use other distance measures (City-Chess). That is because the distances
+  are calculated on the same horizontal line.
